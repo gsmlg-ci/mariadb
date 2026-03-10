@@ -1,7 +1,6 @@
 FROM ubuntu:24.04
 
-LABEL org.opencontainers.image.source="https://github.com/gsmlg-dev/Foundation"
-LABEL org.opencontainers.image.source.path="/docker/mariadb"
+LABEL org.opencontainers.image.source="https://github.com/gsmlg-ci/mariadb"
 LABEL org.opencontainers.image.title="MariaDB"
 LABEL org.opencontainers.image.authors="Jonathan Gao <gsmlg.com@gmail.com>"
 LABEL org.opencontainers.image.description="MariaDB running on top of ubuntu"
